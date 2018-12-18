@@ -4,6 +4,6 @@
 snapctl set user-id=XXXX
 snapctl set password=XXXX
 snapctl set publickey=XXXX
-snapctl set time-in-sec-usb=100
+snapctl set time-in-sec=100
 snapctl set b=5
 snapctl set daily-excution-sleep-time=30

@@ -23,9 +23,9 @@ parts:
     config-variable:
        plugin: dump
        source: config
-    my-service:
-       plugin: dump
-       source: daily_check 
+#    my-service:
+#       plugin: dump
+#       source: daily_check 
 
 
 apps:
@@ -37,7 +37,7 @@ apps:
         command: bin/edge-mode
     itron-client:
         command: bin/client-mode
-    daily-test-execution:
-        command: daily_execution_test
-        daemon: simple
-        restart-condition: always
+#    daily-test-execution:
+#        command: daily_execution_test
+#        daemon: simple
+#        restart-condition: always

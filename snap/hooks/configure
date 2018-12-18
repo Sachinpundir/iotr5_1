@@ -3,6 +3,6 @@
 user_id="$(snapctl get user-id)"
 passwd="$(snapctl get password)"
 pubkey="$(snapctl get public-key)"
-time_in_sec_usb="$(snapctl get time-in-sec-usb)"
+time_in_sec="$(snapctl get time-in-sec)"
 b="$(snapctl get b)"
 sleep_time="$(snapctl get daily-excution-sleep-time)"
